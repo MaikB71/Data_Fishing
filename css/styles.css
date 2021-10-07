@@ -23,7 +23,7 @@ nav{
     display: flex;
     justify-content: center;
     height: 60vmax;
-    background-image: url('./img/header/pesca-tradicional.png');
+    background-image: url('/img/header/pesca-tradicional.png');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -34,7 +34,7 @@ nav{
     display: flex;
     justify-content: center;
     height: 55vmax;
-    background-image: url('./img/nosotros/Nosotros-header.jpg');
+    background-image: url('/img/nosotros/Nosotros-header.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     
