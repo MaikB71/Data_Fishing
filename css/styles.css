@@ -123,7 +123,7 @@ nav label:hover{
 /******...NavBar RESPONSIVE...*********/
 @media screen and (max-width:500px) {
     nav{
-        height: 11vh;
+        height: 51vh;
     }
 
     nav label{
@@ -133,7 +133,7 @@ nav label:hover{
     }
     
     .NM-NavBar{
-        width: 80%;
+        width: 100%;
         font-size: 4vw;
         height: 9vh;
     }
@@ -141,6 +141,11 @@ nav label:hover{
     .NM-div-title{
         width: 100%;
 
+    }
+    .NM-div-title>img{
+        padding-top: 5%;
+        width: 20%;
+        text-align: left;
     }
     .NM-div-Menu{
         display: none;
