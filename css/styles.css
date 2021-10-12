@@ -34,11 +34,31 @@ nav{
     display: flex;
     justify-content: center;
     height: 55vmax;
-    background-image: url('../img/nosotros/Nosotros-header.jpg');
+    background-image: url('../img/nosotros/Nosotros.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+#nav-presentacion-final{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 55vmax;
+    background-image: url('../img/nosotros/Presentacion.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
+
+#nav-hackathon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 55vmax;
+    background-image: url('../img/hackathon/hackathon-portada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
 .NM-NavBar{
     padding-top: 0.5%;
     color: white;
@@ -61,6 +81,7 @@ nav{
     padding: 0% 0%;
     align-items: center;
     animation: NavMenu 0.5s ease-in;
+    
 
 }
 #btn-menu{
@@ -83,10 +104,18 @@ nav label:hover{
     list-style: none;
     padding: 0;
     flex-direction: row; 
+    text-align: center;
+    
 }
 .NM-div-Menu li:hover{
     background: #191919;
     filter: invert();
+}
+.NM-div-Menu li{
+    display: flex;
+    align-items: center;
+    height: 7vw;
+    
 }
 .NM-div-Menu li a{
     display: block;
